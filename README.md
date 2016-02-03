@@ -1,7 +1,7 @@
 # tubwid
-widget for sean cambridge's tubular.js
 
-Make's your backround a fullscreen YouTube video/
+Widget for sean cambridge's tubular.js
+Make's your backround a fullscreen YouTube video.
 
 Download the library from the vendor's (Sean Cambridge) site:
 
