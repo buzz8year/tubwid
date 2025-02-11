@@ -27,8 +27,8 @@ class SimpleWidget extends Widget
 		// NOTE: This registers all js/css resources defined within your AssetBundle
 		SimpleWidgetAsset::register($view);
 
-		// NOTE: Additional scripts
-		$js = 'let x = 0; your_js_function(); console.log(x);';
+		// NOTE: Additional scripts can be regitered like below. As well as functions from your already registered js-files by SimpleWidgetAsset
+		$js = 'your_js_function(); let x = 0; console.log(x);';
 		$view->registerJs($js);
 	}
 
