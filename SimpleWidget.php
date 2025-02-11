@@ -28,7 +28,7 @@ class SimpleWidget extends Widget
 		SimpleWidgetAsset::register($view);
 
 		// NOTE: Additional scripts
-		$js = 'let smth = 0; your_js_function(); console.log(smth);';
+		$js = 'let x = 0; your_js_function(); console.log(x);';
 		$view->registerJs($js);
 	}
 
