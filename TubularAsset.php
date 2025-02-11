@@ -1,8 +1,8 @@
-namespace yii\tubular;
+namespace frontend\widgets\yii2-js-widget/assets;
 
 use yii\web\AssetBundle;
 
-class TubularAsset extends AssetBundle
+class SimpleWidgetAsset extends AssetBundle
 {
 
 	public $depends = [
