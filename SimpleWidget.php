@@ -1,11 +1,11 @@
-namespace frontend\widgets\yii2-js-widget;
+namespace frontend\widgets\yii2_js_widget;
 
 use Yii;
 use yii\base\Widget;
 use yii\helpers\Html;
 use yii\helpers\Json;
 
-use frontend\widgets\yii2-js-widget\assets\SimpleWidgetAsset;
+use frontend\widgets\yii2_js_widget\assets\SimpleWidgetAsset;
 
 class SimpleWidget extends Widget
 {
