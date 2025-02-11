@@ -24,10 +24,10 @@ class SimpleWidget extends Widget
 	{
 		$view = $this->getView();
 
-		// NOTE: This registers all js/css resources defined witin Asset
-		TubularAsset::register($view);
+		// NOTE: This registers all js/css resources defined within your AssetBundle
+		SimpleWidgetAsset::register($view);
 
-		// NOTE: Additiona
+		// NOTE: Additional scripts
 		$js = 'let smth = 0; your_js_function(); console.log(smth);';
 		$view->registerJs($js);
 	}
