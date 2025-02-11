@@ -1,10 +1,5 @@
-# tubwid
+# yii2-js-widget
 
-Widget of sean cambridge's tubular.js for your Yii2 app.
+This is the implementation of the simplest js/css widget for your Yii2 app.
 
-Makes your background a fullscreen YouTube video.
-
-Download the library from the vendor's (Sean Cambridge) site:
-http://www.seanmccambridge.com/tubular/
-
-Set up the above widget and asset files with your paths to .js libraries.
+NOTE: If your widget namespace name is something like "yii2-js-widget", then the file directory within your "frontend/widgets" should be named as "yii2_js_widget", so its path "frontend/widgetsyii2_js_widget" could be properly handled by framework.
