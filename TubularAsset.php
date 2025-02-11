@@ -11,8 +11,8 @@ class TubularAsset extends AssetBundle
 	
 	public function init()
 	{
-		$this->sourcePath = __DIR__ . "/assets";
-		$this->js = "your-script.js";
+		$this->sourcePath = __DIR__ . '/assets';
+		$this->js = 'your-script.js';
 		return parent::init();
 	}
 }
