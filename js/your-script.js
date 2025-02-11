@@ -1,3 +1,7 @@
-let smth = 1;
+function your_js_function() {
+    let x = 1;
+    console.log(x)
+}
 
-console.log(smth)
+let y = 1;
+console.log(y)
