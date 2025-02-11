@@ -2,4 +2,4 @@
 
 This is the implementation of the simplest js/css widget for your Yii2 app.
 
-NOTE: If your widget namespace name is something like "yii2-js-widget", then the file directory within your "frontend/widgets" should be named as "yii2_js_widget", so its path "frontend/widgetsyii2_js_widget" could be properly handled by framework.
+NOTE: If your widget name is something like <b>yii2-js-widget</b>, then the namespace you use should be like <code>frontend\widgets\yii2_js_widget</code>, and the file directory should be <code>frontend/widgets/yii2_js_widget</code>, so its namespace and path could be properly handled by framework.
