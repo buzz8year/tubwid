@@ -9,15 +9,11 @@ use yii\web\JsExpression;
 
 class Tubular extends Widget
 {
-
-	public $selector = '.utube_wrapper';
-	public $youtubecode;
-
 	public function init()
 	{
 		parent::init();
 
-		if ( empty($this->youtubecode)) {
+		if (empty($this->youtubecode)) {
 			throw new InvalidConfigException('Id видео отсутствует');
 		}
 	}
@@ -31,11 +27,10 @@ class Tubular extends Widget
 
 	public function registerClientScript()
 	{
-		$js=  '$("'.$this->selector.'")';
-		$js.= '.tubular({videoId: \'' . $this->youtubecode .'\'});';
-
 		$view = $this->getView();
 		TubularAsset::register($view);
+
+		$js = 'let smth = 0; your_js_function(); console.log(smth);';
 		$view->registerJs($js);
 	}
 
